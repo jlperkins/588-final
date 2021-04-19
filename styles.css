@@ -47,7 +47,11 @@ li.no-bullets {
 
 @font-face {
     font-family: 'bank-gothic';
-    src: url('/font/bank-gothic-regular.ttf');
+    src: url('/font/BankGothic.eot');
+    src: url('/font/BankGothic.eot?#iefix') format('embedded-opentype'),
+         url('/font/BankGothic.woff') format('woff'),
+         url('font/bank-gothic-regular.ttf ') format('truetype'),
+         url('font/BankGothic.svg') format('svg');
 }
 
 body {
