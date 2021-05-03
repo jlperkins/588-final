@@ -106,3 +106,12 @@ body {
 .overlay:hover {
     color:rgb(104, 56, 158);
 }
+
+.fancy-box {
+    background-color: rgb(152, 80, 235);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 5px 30px 5 px 30px;
+    font-size: 18px;
+}
