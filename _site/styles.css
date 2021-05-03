@@ -13,7 +13,8 @@
 
 .navbar-nav .nav-link {
     color: #fff;
-    font-size: 150%;
+    font-size: 2vw;
+    margin-inline: 1vw;
 }
   
 .navbar-nav .nav-link:hover,
@@ -22,12 +23,16 @@
 }
 
 .navbar-brand {
-    font-size: 300%;
+    font-size: 4vw;
     color:rgb(142, 85, 207);
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.center {
+    text-align: center;
 }
 
 ul.no-bullets {
@@ -47,7 +52,20 @@ li.no-bullets {
 
 @font-face {
     font-family: 'bank-gothic';
-    src: url('/font/bank-gothic-regular.ttf');
+    src: url('/font/BankGothic.eot');
+    src: url('/font/BankGothic.eot?#iefix') format('embedded-opentype'),
+         url('/font/BankGothic.woff') format('woff'),
+         url('font/bank-gothic-regular.ttf ') format('truetype'),
+         url('font/BankGothic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'be-vietnam';
+    src: url('/font/BeVietnam-Regular.eot');
+    src: url('/font/BeVietnam-Regular.eot#iefix') format('embedded-opentype'),
+         url('font/BeVietnam-Regular.woff') format('woff'),
+         url('font/BeVietnam-Regular.ttf ') format('truetype'),
+         url('font/BeVietnam-Regular.svg') format('svg');
 }
 
 body {
@@ -58,6 +76,12 @@ body {
     background-size: 100% 100%;
     color: white;
     height: 100%;
+}
+
+.sans-serif-font {
+    font: inherit;
+    font-family: be-vietnam;
+    font-size: 1.2vw;
 }
 
 .banner {
