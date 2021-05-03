@@ -12,7 +12,9 @@
 }
 
 .navbar-nav .nav-link {
-    color: #fff;
+    background-color: transparent;
+    border: none;
+    color: #ffff;
     font-size: 1.5vw;
     margin-inline: 1vw;
     /* font-family: be-vietnam; */
@@ -93,6 +95,8 @@ body {
 .overlay {
     color:#5c3a8c;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 .overlay:hover {
