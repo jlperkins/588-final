@@ -21,12 +21,6 @@ function scrollToRules() {
   })
 }
 
-$(document).ready(function(){
-  $(this).scrollTop(0);
-});
-
-
-
 
 // // $("button").click(function() {
 // //     $('html,body').animate({
