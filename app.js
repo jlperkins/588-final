@@ -42,3 +42,7 @@ $('a[href*="#"]')
       }
     }
   });
+
+  $(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+  });

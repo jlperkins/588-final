@@ -13,8 +13,9 @@
 
 .navbar-nav .nav-link {
     color: #fff;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-inline: 1vw;
+    /* font-family: be-vietnam; */
 }
   
 .navbar-nav .nav-link:hover,
@@ -35,19 +36,10 @@ html {
     text-align: center;
 }
 
-ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-    text-align: center;
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-li.no-bullets {
-    display: inline-block;
-    font-weight:bolder;
+.no-pad {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
 }
 
 @font-face {
@@ -81,7 +73,7 @@ body {
 .sans-serif-font {
     font: inherit;
     font-family: be-vietnam;
-    font-size: 1.2vw;
+    font-size: 1.4rem;
 }
 
 .banner {
@@ -108,10 +100,15 @@ body {
 }
 
 .fancy-box {
-    background-color: rgb(152, 80, 235);
+    background-color: #7e81bf;
     border-radius: 20px;
     width: auto;
     height: auto;
-    padding: 5px 30px 5 px 30px;
-    font-size: 18px;
+    padding: 20px 50px 20px 50px;
+    font-size: 1.5rem;
+    margin:2vw;
+}
+
+.pic {
+    min-width: 20vw;
 }
